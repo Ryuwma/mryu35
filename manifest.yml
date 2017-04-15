@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mryu35
+  host: mryu35
+  disk_quota: 1024M
+  services:
+  - Conversation-ca
+  - Speech To Text-3i
+  - Text to Speech-ux
